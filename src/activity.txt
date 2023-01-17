@@ -1,0 +1,9 @@
+Part 1: Critique Whitley’s code.
+In a text file, list several ways in which Whitley’s code violates the 5 Principles.
+    - Variable 'time' is unclear, it's not immediately obvious that it refer to the traffic light timer
+    - Type Color—red, yellow, green—should be renamed Traffic Color 
+    - Either remove the default, or clarify the error to explain why it shouldn't occur 
+    - The conditional on time === 1 is repeated for all three cases, with only the outcome changing based on input 
+    - Make '1' a constant variable
+    - Length of timer (20) should be a modifiable variable for different traffic stops
+    - Traffic stop length should also vary by color; for instance, yellow lights are shorter than red/green. This is an issue of hardcoding
